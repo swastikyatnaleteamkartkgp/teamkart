@@ -10,7 +10,7 @@ from email.utils import formataddr, make_msgid
 
 # Email credentials
 EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
-PASSWORD = os.environ.get("einstien1234")
+PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
 data = pd.read_csv('test_csv.csv', encoding = 'utf-8')
