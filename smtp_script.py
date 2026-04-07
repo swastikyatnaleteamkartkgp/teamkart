@@ -17,13 +17,13 @@ data = pd.read_csv("test_csv.csv")
 
 # Definitions
 BROCHURE_URL = "https://online.fliphtml5.com/TeamKart/1-Qt2Y/" 
-YOUR_NAME = "Archisman Dandapat"
+YOUR_NAME = "Swastik Yatnale"
 TK_LOGO_URL = "https://imgs.search.brave.com/sv9Okf6sV5Cmz8fLS-RwmJ4UnGHgVvUuETOSC-FziQQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91Z2Mu/cHJvZHVjdGlvbi5s/aW5rdHIuZWUvZTYw/NTFhMTAtMWFiZC00/NWRhLWI4N2QtMzkz/ZDc5MmM5NjE2X3Rl/YW1rYXJ0LWVsZWN0/cmljLWxvZ28td2hp/dGUtc3EucG5nP2lv/PXRydWUmc2l6ZT1h/dmF0YXItdjNfMA"
-YOUR_DEPARTMENT = "Department of Electrical Engineering"
-YOUR_YEAR = "Second"
-YOUR_ROLE_TK = "Electronics Subsystem Member"
-YOUR_CONTACT = "+91 9830023665"
-YOUR_LINKED_IN = "https://www.linkedin.com/in/archisman-dandapat/"
+YOUR_DEPARTMENT = "Department of Mechanical Engineering"
+YOUR_YEAR = "First"
+YOUR_ROLE_TK = "Mechanical Subsystem Trainee"
+YOUR_CONTACT = "+91 9890699650"
+YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
 
 SUBJECT = "Greetings from Indian Institute of Technology Kharagpur."
@@ -73,23 +73,14 @@ HTML_HEAD = """
 HTML_BODY = """
 <body>
     <div class="content">
-        <p>Dear Sir/Madam,</p>
-
-        <p>My name is <strong>{your_name}</strong>, and I am a student at <strong>IIT Kharagpur</strong> and a member of our institute’s Formula Student team, <span class="highlight">TeamKART</span>. We are a long-standing student engineering initiative under the Department of Mechanical Engineering (active since 2008), focused on providing hands-on technical education through the complete design and manufacture of Formula-style race cars.</p>
-
-        <p>Over the years, the team has manufactured eight combustion vehicles and participated in eight competitions globally, earning recognition for excellence—including a Top 10 finish at Formula Bharat 2023 and 3rd place in the Cost & Manufacturing Event. Building on this foundation, TeamKART has recently manufactured its first electric vehicle project series (KE-1 and subsequent models) and is currently working on optimizing our powertrain and battery systems.</p>
-
-        <p>Our primary objective is practical skill development. Students gain real-world exposure to engineering design and project execution—skills that strongly align with CSR goals related to technical education and employability. All technical learnings are documented to ensure long-term impact for future student batches.</p>
-
-        <p>As we undertake this technically intensive project, we are seeking CSR support from organizations whose initiatives focus on education and sustainability. Support from <strong>{company}</strong> would directly contribute to strengthening hands-on engineering education in India.</p>
-
-        <p>We would be grateful for the opportunity to share additional details and explore the potential scope of a CSR collaboration at your convenience.</p>
+        <p>Dear {recipient_name},</p>
+        <p>My name is {your_name}, this is a trial mail.</p>
 """
 
 HTML_TAIL="""
         <p><strong>Kindly refer to:</strong></p>
         <div class="links-section">
-            <a href="{brochure_link}">Our Sponsorship Brochure</a>
+            <a href="https://online.fliphtml5.com/TeamKart/1-Qt2Y/#p=1">Our Sponsorship Brochure</a>
             <a href="http://www.teamkart.org/">Our Team's Website</a>
             <a href="https://youtube.com/@teamkart3652">15 Years of TeamKART's Combustion Legacy</a>
             <a href="https://www.instagram.com/team.kart/">Our Instagram Handle</a>
@@ -106,14 +97,14 @@ HTML_TAIL="""
                     </td>
                     <td style="border-left: 2px solid #E31E24; padding: 0;"></td>
                     <td style="padding-left: 15px; line-height: 1.4; font-size: 10pt;">
-                        <span style="font-weight: bold; font-size: 11pt;">{your_name}</span><br>
-                        {your_year}-Year Undergraduate Student<br>
-                        {your_department}<br>
-                        {your_role}, TeamKART<br>
+                        <span style="font-weight: bold; font-size: 11pt;">Swastik Yatnale</span><br>
+                        First-Year Undergraduate Student<br>
+                        Department of Mechanical Engineering<br>
+                        Mechanical Subsystem Trainee, TeamKART<br>
                         IIT Kharagpur<br>
-                        Contact: {your_contact}<br>
-                        <a href="{your_linkedin}" style="color: #0044cc;">LinkedIn</a> | 
-                        <a href="{your_facebook}" style="color: #0044cc;">Facebook</a>
+                        Contact: +91 9890699650<br>
+                        <a href="https://www.linkedin.com/in/swastikyatnale/" style="color: #0044cc;">LinkedIn</a> | 
+                        <a href="https://www.facebook.com/TeamKART/" style="color: #0044cc;">Facebook</a>
                     </td>
                 </tr>
             </table>
