@@ -157,7 +157,7 @@ def send_emails():
             )
 
             msg.attach(MIMEText(html_content, "html"))
-	            recipients = [row["Email"]] + CC_EMAILS
+	        recipients = [row["Email"]] + CC_EMAILS
             server.sendmail(EMAIL, recipients, msg.as_string())
             ist_now = datetime.now() + timedelta(hours=5, minutes=30)
             print(f"Sent email to {row['Email']} at {ist_now.strftime('%H:%M:%S')} IST")
