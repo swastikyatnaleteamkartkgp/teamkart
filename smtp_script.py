@@ -13,7 +13,7 @@ EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
 PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
-data = pd.read_csv('test_csv.csv', encoding = 'utf-8')
+data = pd.read_csv('PSU.csv', encoding = 'utf-8')
 data.columns = data.columns.str.strip()
 
 # Definitions
@@ -72,10 +72,24 @@ HTML_HEAD = """
 
 # Template for the body
 HTML_BODY = """
-<body>
-    <div class="content">
-        <p>Dear {recipient_name},</p>
-        <p>My name is {your_name}, this is a trial mail.</p>
+<body> <div class="content"> <p>Respected Sir/Ma’am,</p>
+   <p>I hope this communication finds you well.</p>
+
+    <p>My name is <strong>Swastik Yatnale</strong>. I am writing on behalf of <span class="highlight">TeamKART</span>, a student engineering initiative at the <strong>Indian Institute of Technology Kharagpur</strong>, functioning under the Department of Mechanical Engineering. Established in 2008, the initiative provides undergraduate students with structured, hands-on exposure to engineering design, manufacturing, and project execution through the complete development of Formula-style race cars.</p>
+
+    <p>The project is centred on capacity building through experiential learning. Students work directly on real-world engineering challenges involving design decision-making, manufacturing processes, cost awareness, and system integration. All technical processes and learnings are formally documented to ensure continuity and long-term educational impact for future student cohorts.</p>
+
+    <p>Over the years, the team has successfully manufactured eight combustion-engine vehicles and participated in multiple national and international competitions, receiving recognition for engineering and manufacturing excellence. Building on this foundation, TeamKART has recently undertaken its first electric vehicle project and is currently working on improving and refining it as part of its transition towards sustainable and green engineering practices.</p>
+
+    <p>In this context, we seek to explore a <strong>CSR collaboration</strong> with public sector organisations whose mandates include promotion of technical education, skill development, and youth capacity building. Support from <strong>{company}</strong> would directly contribute to strengthening hands-on engineering education and creating measurable learning outcomes for students.</p>
+
+    <p>We would be grateful for the opportunity to share further details regarding the initiative and discuss the possible scope of CSR engagement at your convenience.</p>
+
+    <p>Thank you for your time and consideration.</p>
+</div>
+
+</body>
+
 """
 
 HTML_TAIL="""
@@ -153,7 +167,8 @@ def send_emails():
                 your_role = YOUR_ROLE_TK,
                 your_contact = YOUR_CONTACT,
                 your_linkedin = YOUR_LINKED_IN,
-                your_facebook = YOUR_FACEBOOK
+                your_facebook = YOUR_FACEBOOK,
+                company = row['Company']
             )
 
             msg.attach(MIMEText(html_content, "html"))
