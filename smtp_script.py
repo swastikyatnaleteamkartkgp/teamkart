@@ -136,7 +136,7 @@ def send_emails():
             msg = MIMEMultipart("alternative")
             msg["From"] = formataddr((YOUR_NAME, EMAIL))
             msg["To"] = row["Email"]
-	        msg["Cc"] = ", ".join(CC_EMAILS)
+			msg["Cc"] = ", ".join(CC_EMAILS)
             msg["Subject"] = SUBJECT
             msg["Message-ID"] = make_msgid(domain="gmail.com")
 
