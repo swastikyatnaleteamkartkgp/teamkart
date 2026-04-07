@@ -9,11 +9,12 @@ from email.mime.multipart import MIMEMultipart
 from email.utils import formataddr, make_msgid
 
 # Email credentials
-EMAIL = "archismandandapat.teamkartkgp@gmail.com"
-PASSWORD = os.environ.get("EMAIL_PASSWORD")
+EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
+PASSWORD = os.environ.get("einstien1234")
 
 # Put in the correct csv file name 
-data = pd.read_csv("test_csv.csv")
+data = pd.read_csv('test_csv.csv', encoding = 'utf-8')
+data.columns = data.columns.str.strip()'
 
 # Definitions
 BROCHURE_URL = "https://online.fliphtml5.com/TeamKart/1-Qt2Y/" 
@@ -25,7 +26,7 @@ YOUR_ROLE_TK = "Mechanical Subsystem Trainee"
 YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
-
+CC_EMAILS = ["prajitpradeep.teamkartkgp@gmail.com"]
 SUBJECT = "Greetings from Indian Institute of Technology Kharagpur."
 HTML_HEAD = """
 <!DOCTYPE html>
@@ -135,6 +136,7 @@ def send_emails():
             msg = MIMEMultipart("alternative")
             msg["From"] = formataddr((YOUR_NAME, EMAIL))
             msg["To"] = row["Email"]
+	        msg["Cc"] = ", ".join(CC_EMAILS)
             msg["Subject"] = SUBJECT
             msg["Message-ID"] = make_msgid(domain="gmail.com")
 
@@ -155,7 +157,8 @@ def send_emails():
             )
 
             msg.attach(MIMEText(html_content, "html"))
-            server.sendmail(EMAIL, row["Email"], msg.as_string())
+	            recipients = [row["Email"]] + CC_EMAILS
+            server.sendmail(EMAIL, recipients, msg.as_string())
             ist_now = datetime.now() + timedelta(hours=5, minutes=30)
             print(f"Sent email to {row['Email']} at {ist_now.strftime('%H:%M:%S')} IST")
             
@@ -168,3 +171,4 @@ def send_emails():
 
 if __name__ == "__main__":
     send_emails()
+
