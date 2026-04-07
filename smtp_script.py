@@ -13,7 +13,7 @@ EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
 PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
-data = pd.read_csv('test_csv.csv', encoding = 'utf-8')
+data = pd.read_csv('PSU.csv', encoding = 'utf-8')
 data.columns = data.columns.str.strip()
 
 # Definitions
@@ -26,7 +26,7 @@ YOUR_ROLE_TK = "Mechanical Subsystem Trainee"
 YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
-CC_EMAILS = ["aniketnabar.teamkartkgp@gmail.com"]
+CC_EMAILS = ["prajitpradeep.teamkartkgp@gmail.com"]
 SUBJECT = "Greetings from Indian Institute of Technology Kharagpur."
 HTML_HEAD = """
 <!DOCTYPE html>
