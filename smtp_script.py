@@ -133,12 +133,12 @@ def send_emails():
 
     for index, row in data.iterrows():
         try:
-            msg = MIMEMultipart("alternative")
-            msg["From"] = formataddr((YOUR_NAME, EMAIL))
-            msg["To"] = row["Email"]
+			msg = MIMEMultipart("alternative")
+			msg["From"] = formataddr((YOUR_NAME, EMAIL))
+			msg["To"] = row["Email"]
 			msg["Cc"] = ", ".join(CC_EMAILS)
-            msg["Subject"] = SUBJECT
-            msg["Message-ID"] = make_msgid(domain="gmail.com")
+			msg["Subject"] = SUBJECT
+			msg["Message-ID"] = make_msgid(domain="gmail.com")
 
             html_template = HTML_HEAD+HTML_BODY+HTML_TAIL
             
