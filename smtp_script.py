@@ -13,7 +13,7 @@ EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
 PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
-data = pd.read_csv('PSU.csv', encoding = 'utf-8')
+data = pd.read_csv('test_csv.csv', encoding = 'utf-8')
 data.columns = data.columns.str.strip()
 
 # Definitions
@@ -26,7 +26,7 @@ YOUR_ROLE_TK = "Mechanical Subsystem Trainee"
 YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
-CC_EMAILS = ["prajitpradeep.teamkartkgp@gmail.com"]
+CC_EMAILS = ["aniketnabar.teamkartkgp@gmail.com"]
 SUBJECT = "Greetings from Indian Institute of Technology Kharagpur."
 HTML_HEAD = """
 <!DOCTYPE html>
@@ -72,23 +72,27 @@ HTML_HEAD = """
 
 # Template for the body
 HTML_BODY = """
-<body> <div class="content"> <p>Respected Sir/Ma’am,</p>
-   <p>I hope this communication finds you well.</p>
+<body>
+<div class="content">
+<p>Respected Sir/Ma’am,</p>
+<p>I hope this communication finds you well.</p>
 
-    <p>My name is <strong>Swastik Yatnale</strong>. I am writing on behalf of <span class="highlight">TeamKART</span>, a student engineering initiative at the <strong>Indian Institute of Technology Kharagpur</strong>, functioning under the Department of Mechanical Engineering. Established in 2008, the initiative provides undergraduate students with structured, hands-on exposure to engineering design, manufacturing, and project execution through the complete development of Formula-style race cars.</p>
+<p>My name is <strong>{your_name}</strong>, and I am writing on behalf of <span class="highlight">TeamKART</span>, a student engineering initiative at the <strong>Indian Institute of Technology Kharagpur</strong>, functioning under the Department of Mechanical Engineering. Established in 2008, the initiative provides undergraduate students with structured, hands-on exposure to engineering design, manufacturing, and project execution through the complete development of Formula-style race cars.</p>
 
-    <p>The project is centred on capacity building through experiential learning. Students work directly on real-world engineering challenges involving design decision-making, manufacturing processes, cost awareness, and system integration. All technical processes and learnings are formally documented to ensure continuity and long-term educational impact for future student cohorts.</p>
+<p>The project is centred on capacity building through experiential learning. Students engage directly with real-world engineering challenges involving design decision-making, manufacturing processes, cost optimisation, and system integration. All technical processes and learnings are formally documented to ensure continuity and long-term educational impact for future student cohorts.</p>
 
-    <p>Over the years, the team has successfully manufactured eight combustion-engine vehicles and participated in multiple national and international competitions, receiving recognition for engineering and manufacturing excellence. Building on this foundation, TeamKART has recently undertaken its first electric vehicle project and is currently working on improving and refining it as part of its transition towards sustainable and green engineering practices.</p>
+<p>Over the years, the team has successfully manufactured eight combustion-engine vehicles and participated in multiple national and international competitions, receiving recognition for engineering and manufacturing excellence. Building on this foundation, TeamKART has recently undertaken its first electric vehicle project and is currently focused on advancing it as part of its transition towards sustainable and green mobility solutions.</p>
 
-    <p>In this context, we seek to explore a <strong>CSR collaboration</strong> with public sector organisations whose mandates include promotion of technical education, skill development, and youth capacity building. Support from <strong>{company}</strong> would directly contribute to strengthening hands-on engineering education and creating measurable learning outcomes for students.</p>
+<p>In this context, we seek to explore a <strong>strategic partnership</strong> with leading financial institutions such as <strong>{bank_name}</strong>, whose initiatives support innovation, education, sustainability, and youth development. Collaboration with your organisation would not only contribute to strengthening hands-on engineering education but also align with broader goals of fostering innovation, supporting future-ready technologies, and promoting responsible, sustainable development.</p>
 
-    <p>We would be grateful for the opportunity to share further details regarding the initiative and discuss the possible scope of CSR engagement at your convenience.</p>
+<p>Such an association also offers an opportunity for meaningful brand visibility among a highly skilled and technically driven student community, while contributing to impactful, education-driven outcomes.</p>
 
-    <p>Thank you for your time and consideration.</p>
+<p>We would be grateful for the opportunity to share further details regarding the initiative and discuss potential avenues for collaboration at your convenience.</p>
+
+<p>Thank you for your time and consideration.</p>
 </div>
-
 </body>
+
 
 """
 
