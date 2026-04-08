@@ -83,7 +83,7 @@ HTML_BODY = """
 
 <p>Over the years, the team has successfully manufactured eight combustion-engine vehicles and participated in multiple national and international competitions, receiving recognition for engineering and manufacturing excellence. Building on this foundation, TeamKART has recently undertaken its first electric vehicle project and is currently focused on advancing it as part of its transition towards sustainable and green mobility solutions.</p>
 
-<p>In this context, we seek to explore a <strong>strategic partnership</strong> with leading financial institutions such as <strong>{bank_name}</strong>, whose initiatives support innovation, education, sustainability, and youth development. Collaboration with your organisation would not only contribute to strengthening hands-on engineering education but also align with broader goals of fostering innovation, supporting future-ready technologies, and promoting responsible, sustainable development.</p>
+<p>In this context, we seek to explore a <strong>strategic partnership</strong> with leading financial institutions such as <strong>{company}</strong>, whose initiatives support innovation, education, sustainability, and youth development. Collaboration with your organisation would not only contribute to strengthening hands-on engineering education but also align with broader goals of fostering innovation, supporting future-ready technologies, and promoting responsible, sustainable development.</p>
 
 <p>Such an association also offers an opportunity for meaningful brand visibility among a highly skilled and technically driven student community, while contributing to impactful, education-driven outcomes.</p>
 
