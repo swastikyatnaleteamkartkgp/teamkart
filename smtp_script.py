@@ -13,7 +13,7 @@ EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
 PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
-data = pd.read_csv('test_csv.csv', encoding = 'utf-8')
+data = pd.read_csv('test.csv', encoding = 'utf-8')
 data.columns = data.columns.str.strip()
 
 # Definitions
@@ -92,8 +92,6 @@ HTML_BODY = """
 <p>Thank you for your time and consideration.</p>
 </div>
 </body>
-
-
 """
 
 HTML_TAIL="""
