@@ -26,8 +26,8 @@ YOUR_ROLE_TK = "Mechanical Subsystem Trainee"
 YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
-CC_EMAILS = ["aniketnabar.teamkartkgp@gmail.com"]
-SUBJECT = "Greetings from Indian Institute of Technology Kharagpur."
+CC_EMAILS = ["prajitpradeep.teamkartkgp@gmail.com"]
+SUBJECT = "Follow-up: Potential partnership with TeamKART, IIT Kharagpur"
 HTML_HEAD = """
 <!DOCTYPE html>
 <html>
@@ -74,24 +74,17 @@ HTML_HEAD = """
 HTML_BODY = """
 <body>
 <div class="content">
-<p>Respected Sir/Ma’am,</p>
-<p>I hope this communication finds you well.</p>
+<p>Dear <strong>{recipient_name}</strong>,</p>
+   <p>I’m following up on my previous note regarding a potential partnership between <span class="highlight">TeamKART</span>, IIT Kharagpur and <strong>{company}</strong>.</p>
 
-<p>My name is <strong>{your_name}</strong>, and I am writing on behalf of <span class="highlight">TeamKART</span>, a student engineering initiative at the <strong>Indian Institute of Technology Kharagpur</strong>, functioning under the Department of Mechanical Engineering. Established in 2008, the initiative provides undergraduate students with structured, hands-on exposure to engineering design, manufacturing, and project execution through the complete development of Formula-style race cars.</p>
+    <p>I wanted to check if you’ve had a moment to review our sponsorship brochure or if there are any specific technical details regarding our KE-1 electric vehicle project I can provide to help your team evaluate this.</p>
 
-<p>The project is centred on capacity building through experiential learning. Students engage directly with real-world engineering challenges involving design decision-making, manufacturing processes, cost optimisation, and system integration. All technical processes and learnings are formally documented to ensure continuity and long-term educational impact for future student cohorts.</p>
+    <p>We are particularly interested in how <strong>{company}</strong>’s work might align with our current performance milestones. I’m happy to answer any questions.</p>
 
-<p>Over the years, the team has successfully manufactured eight combustion-engine vehicles and participated in multiple national and international competitions, receiving recognition for engineering and manufacturing excellence. Building on this foundation, TeamKART has recently undertaken its first electric vehicle project and is currently focused on advancing it as part of its transition towards sustainable and green mobility solutions.</p>
-
-<p>In this context, we seek to explore a <strong>strategic partnership</strong> with leading financial institutions such as <strong>{company}</strong>, whose initiatives support innovation, education, sustainability, and youth development. Collaboration with your organisation would not only contribute to strengthening hands-on engineering education but also align with broader goals of fostering innovation, supporting future-ready technologies, and promoting responsible, sustainable development.</p>
-
-<p>Such an association also offers an opportunity for meaningful brand visibility among a highly skilled and technically driven student community, while contributing to impactful, education-driven outcomes.</p>
-
-<p>We would be grateful for the opportunity to share further details regarding the initiative and discuss potential avenues for collaboration at your convenience.</p>
-
-<p>Thank you for your time and consideration.</p>
+    <p>Best regards,</p>
 </div>
 </body>
+
 """
 
 HTML_TAIL="""
