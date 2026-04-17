@@ -13,7 +13,7 @@ EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
 PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
-data = pd.read_csv('new.csv', encoding = 'utf-8')
+data = pd.read_csv('new_psu.csv', encoding = 'utf-8')
 data.columns = data.columns.str.strip()
 
 # Definitions
