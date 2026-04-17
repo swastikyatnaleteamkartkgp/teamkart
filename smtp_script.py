@@ -72,17 +72,22 @@ HTML_HEAD = """
 
 # Template for the body
 HTML_BODY = """
-<body>
-<div class="content">
-<p>Dear <strong>{recipient_name}</strong>,</p>
-   <p>I’m following up on my previous note regarding a potential partnership between <span class="highlight">TeamKART</span>, IIT Kharagpur and <strong>{company}</strong>.</p>
+<body> <div class="content"> <p>Respected Sir/Ma’am,</p>
+   <p>I hope this communication finds you well.</p>
 
-    <p>I wanted to check if you’ve had a moment to review our sponsorship brochure or if there are any specific technical details regarding our KE-1 electric vehicle project I can provide to help your team evaluate this.</p>
+    <p>My name is <strong>{your_name}</strong>. I am writing on behalf of <span class="highlight">TeamKART</span>, a student engineering initiative at the <strong>Indian Institute of Technology Kharagpur</strong>, functioning under the Department of Mechanical Engineering. Established in 2008, the initiative provides undergraduate students with structured, hands-on exposure to engineering design, manufacturing, and project execution through the complete development of Formula-style race cars.</p>
 
-    <p>We are particularly interested in how <strong>{company}</strong>’s work might align with our current performance milestones. I’m happy to answer any questions.</p>
+    <p>The project is centred on capacity building through experiential learning. Students work directly on real-world engineering challenges involving design decision-making, manufacturing processes, cost awareness, and system integration. All technical processes and learnings are formally documented to ensure continuity and long-term educational impact for future student cohorts.</p>
 
-    <p>Best regards,</p>
+    <p>Over the years, the team has successfully manufactured eight combustion-engine vehicles and participated in multiple national and international competitions, receiving recognition for engineering and manufacturing excellence. Building on this foundation, TeamKART has recently undertaken its first electric vehicle project and is currently working on improving and refining it as part of its transition towards sustainable and green engineering practices.</p>
+
+    <p>In this context, we seek to explore a <strong>CSR collaboration</strong> with public sector organisations whose mandates include promotion of technical education, skill development, and youth capacity building. Support from <strong>{company}</strong> would directly contribute to strengthening hands-on engineering education and creating measurable learning outcomes for students.</p>
+
+    <p>We would be grateful for the opportunity to share further details regarding the initiative and discuss the possible scope of CSR engagement at your convenience.</p>
+
+    <p>Thank you for your time and consideration.</p>
 </div>
+
 </body>
 
 """
