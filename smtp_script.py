@@ -13,7 +13,7 @@ EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
 PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
-data = pd.read_csv('new_psu.csv', encoding = 'utf-8')
+data = pd.read_csv('extras.csv', encoding = 'utf-8')
 data.columns = data.columns.str.strip()
 
 # Definitions
@@ -27,7 +27,7 @@ YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
 CC_EMAILS = ["prajitpradeep.teamkartkgp@gmail.com"]
-SUBJECT = "Follow-up: Potential partnership with TeamKART, IIT Kharagpur"
+SUBJECT = "Greetings from Indian Institute of Technology, Kharagpur."
 HTML_HEAD = """
 <!DOCTYPE html>
 <html>
@@ -72,20 +72,16 @@ HTML_HEAD = """
 
 # Template for the body
 HTML_BODY = """
-<body> <div class="content"> <p>Respected Sir/Ma’am,</p>
-   <p>I hope this communication finds you well.</p>
+<body> <div class="content"> <p>Greetings from <strong>Indian Institute of Technology Kharagpur</strong>.</p>
+   <p>My name is <strong>{your_name}</strong>, and I am a student at IIT Kharagpur and a member of our institute’s Formula Student team, <span class="highlight">TeamKART</span>, a long-standing student engineering initiative under the Department of Mechanical Engineering, since 2008, focused on providing hands-on technical education through the complete design and manufacture of Formula-style race cars.</p>
 
-    <p>My name is <strong>{your_name}</strong>. I am writing on behalf of <span class="highlight">TeamKART</span>, a student engineering initiative at the <strong>Indian Institute of Technology Kharagpur</strong>, functioning under the Department of Mechanical Engineering. Established in 2008, the initiative provides undergraduate students with structured, hands-on exposure to engineering design, manufacturing, and project execution through the complete development of Formula-style race cars.</p>
+    <p>Over the years, the team has manufactured <strong>eight combustion vehicles</strong> and participated in <strong>three international and five national competitions</strong>, earning recognition for engineering and manufacturing excellence, including a <strong>Top 10 finish at Formula Bharat 2023</strong> and <strong>3rd place in the Cost & Manufacturing Event</strong>. We have also received multiple design-focused awards in Formula Bharat Virtuals. Building on this foundation, <span class="highlight">TeamKART</span> has recently <strong>manufactured its first electric vehicle project series</strong> (KE-1 and subsequent models) and is currently working on improving certain parts of our car.</p>
 
-    <p>The project is centred on capacity building through experiential learning. Students work directly on real-world engineering challenges involving design decision-making, manufacturing processes, cost awareness, and system integration. All technical processes and learnings are formally documented to ensure continuity and long-term educational impact for future student cohorts.</p>
+    <p>The primary objective of this initiative is <strong>practical skill development</strong>. Students gain real-world exposure to engineering design, manufacturing processes, project execution, and teamwork. All technical learnings are documented and passed on to future student batches to ensure continuity and long-term impact.</p>
 
-    <p>Over the years, the team has successfully manufactured eight combustion-engine vehicles and participated in multiple national and international competitions, receiving recognition for engineering and manufacturing excellence. Building on this foundation, TeamKART has recently undertaken its first electric vehicle project and is currently working on improving and refining it as part of its transition towards sustainable and green engineering practices.</p>
+    <p>As we undertake this technically intensive project, we are seeking <strong>support towards student research</strong>. Support from <strong>{company}</strong> would directly contribute to strengthening hands-on engineering education while supporting the broader objective of promoting sustainable technologies.</p>
 
-    <p>In this context, we seek to explore a <strong>CSR collaboration</strong> with public sector organisations whose mandates include promotion of technical education, skill development, and youth capacity building. Support from <strong>{company}</strong> would directly contribute to strengthening hands-on engineering education and creating measurable learning outcomes for students.</p>
-
-    <p>We would be grateful for the opportunity to share further details regarding the initiative and discuss the possible scope of CSR engagement at your convenience.</p>
-
-    <p>Thank you for your time and consideration.</p>
+    <p>We would be grateful for the opportunity to share additional details about our work and explore the potential scope of collaboration at your convenience.</p>
 </div>
 
 </body>
