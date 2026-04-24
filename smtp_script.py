@@ -13,7 +13,7 @@ EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
 PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
-data = pd.read_csv('extras.csv', encoding = 'utf-8')
+data = pd.read_csv('new_psu.csv', encoding = 'utf-8')
 data.columns = data.columns.str.strip()
 
 # Definitions
@@ -27,7 +27,7 @@ YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
 CC_EMAILS = ["prajitpradeep.teamkartkgp@gmail.com"]
-SUBJECT = "Greetings from Indian Institute of Technology, Kharagpur."
+SUBJECT = "Follow-up: Potential Partnership with TeamKART, IIT Kharagpur"
 HTML_HEAD = """
 <!DOCTYPE html>
 <html>
@@ -72,19 +72,19 @@ HTML_HEAD = """
 
 # Template for the body
 HTML_BODY = """
-<body> <div class="content"> <p>Greetings from <strong>Indian Institute of Technology Kharagpur</strong>.</p>
-   <p>My name is <strong>{your_name}</strong>, and I am a student at IIT Kharagpur and a member of our institute’s Formula Student team, <span class="highlight">TeamKART</span>, a long-standing student engineering initiative under the Department of Mechanical Engineering, since 2008, focused on providing hands-on technical education through the complete design and manufacture of Formula-style race cars.</p>
+<body>
+<div class="content">
+<p>Dear <strong>{recipient_name}</strong>,</p>
+   <p>I’m following up on my previous note regarding a potential partnership between <span class="highlight">TeamKART</span>, IIT Kharagpur and <strong>{company}</strong>.</p>
 
-    <p>Over the years, the team has manufactured <strong>eight combustion vehicles</strong> and participated in <strong>three international and five national competitions</strong>, earning recognition for engineering and manufacturing excellence, including a <strong>Top 10 finish at Formula Bharat 2023</strong> and <strong>3rd place in the Cost & Manufacturing Event</strong>. We have also received multiple design-focused awards in Formula Bharat Virtuals. Building on this foundation, <span class="highlight">TeamKART</span> has recently <strong>manufactured its first electric vehicle project series</strong> (KE-1 and subsequent models) and is currently working on improving certain parts of our car.</p>
+    <p>I wanted to check if you’ve had a moment to review our sponsorship brochure or if there are any specific technical details regarding our KE-1 electric vehicle project I can provide to help your team evaluate this.</p>
 
-    <p>The primary objective of this initiative is <strong>practical skill development</strong>. Students gain real-world exposure to engineering design, manufacturing processes, project execution, and teamwork. All technical learnings are documented and passed on to future student batches to ensure continuity and long-term impact.</p>
+    <p>We are particularly interested in how <strong>{company}</strong>’s work might align with our current performance milestones. I’m happy to answer any questions.</p>
 
-    <p>As we undertake this technically intensive project, we are seeking <strong>support towards student research</strong>. Support from <strong>{company}</strong> would directly contribute to strengthening hands-on engineering education while supporting the broader objective of promoting sustainable technologies.</p>
-
-    <p>We would be grateful for the opportunity to share additional details about our work and explore the potential scope of collaboration at your convenience.</p>
+    <p>Best regards,</p>
 </div>
-
 </body>
+
 
 """
 
