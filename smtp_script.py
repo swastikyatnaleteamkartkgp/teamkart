@@ -13,7 +13,7 @@ EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
 PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
-data = pd.read_csv('Merged.csv', encoding = 'utf-8')
+data = pd.read_csv('jindal_aluminium.csv', encoding = 'utf-8')
 data.columns = data.columns.str.strip()
 
 # Definitions
@@ -27,7 +27,7 @@ YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
 CC_EMAILS = ["prajitpradeep.teamkartkgp@gmail.com", "mohamed.teamkartkgp@gmail.com"]
-SUBJECT = "Follow-up: Potential Partnership with TeamKART, IIT Kharagpur"
+SUBJECT = "In-Kind Support Inquiry: Fueling TeamKART’s Electric Vehicle Project (IIT Kharagpur)""
 HTML_HEAD = """
 <!DOCTYPE html>
 <html>
@@ -72,19 +72,28 @@ HTML_HEAD = """
 
 # Template for the body
 HTML_BODY = """
-<body>
-<div class="content">
-<p>Dear <strong>{recipient_name}</strong>,</p>
-   <p>I’m following up on my previous note regarding a potential partnership between <span class="highlight">TeamKART</span>, IIT Kharagpur and <strong>{company}</strong>.</p>
+<body> <div class="content"> <p>Greetings from <strong><span class="highlight">TeamKART</span>, Indian Institute of Technology Kharagpur</strong>.</p>
+   <p>My name is <strong>Swastik Yatnale</strong>, and I am a student at IIT Kharagpur and also a member of <span class="highlight">TeamKART</span>, the official formula student team of IIT Kharagpur. <span class="highlight">TeamKART</span> is officially a sponsored research project under the <strong>Sponsored Research and Industrial Consultancy Cell (SRIC)</strong> and the <strong>Department of Mechanical Engineering, IIT Kharagpur</strong>, active since 2008, focused on providing hands-on technical education through the complete design and manufacture of Formula-style race cars.</p>
 
-    <p>I wanted to check if you’ve had a moment to review our sponsorship brochure or if there are any specific technical details regarding our KE-1 electric vehicle project I can provide to help your team evaluate this.</p>
+    <p>Over the years, the team has manufactured <strong>eight combustion vehicles</strong> and participated in <strong>three international and five national competitions</strong>, earning recognition for engineering and manufacturing excellence, including a <strong>Top 10 finish at Formula Bharat 2023</strong> and <strong>3rd place in the Cost & Manufacturing Event</strong>. We have also received multiple design-focused awards in Formula Bharat Virtuals. Building on this foundation, <span class="highlight">TeamKART</span> has recently <strong>manufactured its first electric vehicle project(KE-1)</strong> and is currently working on improvising certain parts of our car.</p>
 
-    <p>We are particularly interested in how <strong>{company}</strong>’s work might align with our current performance milestones. I’m happy to answer any questions.</p>
+    <p>To reach our performance targets for the upcoming season, we are seeking <strong>In-Kind support</strong> from <strong>{company}</strong> in the form of <strong>Aluminium 6061 T6 sheets</strong>.</p>
 
-    <p>Best regards,</p>
+    <p>Supporting <span class="highlight">TeamKART</span> with your products provides a unique opportunity to:</p>
+    
+    <ul>
+        <li><strong>Real-World Validation:</strong> See your products perform under the extreme thermal and mechanical loads of a race track.</li>
+        <li><strong>Brand Integration:</strong> Your logo will be prominently featured on the vehicle's livery, team apparel, and across our social media platforms.</li>
+        <li><strong>Talent Connection:</strong> Engage with the top-tier engineering students at IIT Kharagpur who will be the future users of your products in the industry.</li>
+    </ul>
+
+    <p>We take our car to various national and international competitions. Apart from 
+branding opportunities there, we will strive to promote your organization among our campus community. The deliverables for the company are enlisted in the <a href="{brochure_link}">Sponsorship Brochure</a>, which will give you an overview of the scale at which we work and the publicity you would receive by supporting us. The deliverables will be further discussed with the company for suggestions and changes.</p>
+
+    <p>Please feel free to contact me if you have any questions in this regard.</p>
 </div>
-</body>
 
+</body> 
 
 """
 
