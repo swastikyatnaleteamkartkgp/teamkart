@@ -27,7 +27,7 @@ YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
 CC_EMAILS = []
-SUBJECT = "In-Kind Support Inquiry: Fueling TeamKART’s Electric Vehicle Project (IIT Kharagpur)""
+SUBJECT = "In-Kind Support Inquiry: Fueling TeamKART’s Electric Vehicle Project (IIT Kharagpur)"
 HTML_HEAD = """
 <!DOCTYPE html>
 <html>
