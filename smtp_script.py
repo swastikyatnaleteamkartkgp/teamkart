@@ -26,7 +26,7 @@ YOUR_ROLE_TK = "Mechanical Subsystem Trainee"
 YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
-CC_EMAILS = ["prajitpradeep.teamkartkgp@gmail.com", "mohamed.teamkartkgp@gmail.com"]
+CC_EMAILS = []
 SUBJECT = "In-Kind Support Inquiry: Fueling TeamKART’s Electric Vehicle Project (IIT Kharagpur)""
 HTML_HEAD = """
 <!DOCTYPE html>
