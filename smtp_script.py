@@ -13,7 +13,7 @@ EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
 PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
-data = pd.read_csv('test.csv', encoding = 'utf-8')
+data = pd.read_csv('Merged.csv', encoding = 'utf-8')
 data.columns = data.columns.str.strip()
 
 # Definitions
@@ -26,7 +26,7 @@ YOUR_ROLE_TK = "Suspension Steering & Brakes Member"
 YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
-CC_EMAILS = []
+CC_EMAILS = ["prajitpradeep.teamkartkgp@gmail.com", "shubhayubasak.teamkartkgp@gmail.com", "mohamed.teamkartkgp@gmail.com"]
 SUBJECT = "Potential partnership with TeamKART, IIT Kharagpur"
 HTML_HEAD = """
 <!DOCTYPE html>
@@ -86,7 +86,7 @@ HTML_BODY = """
 
     <p>The primary objective of this initiative is <strong>practical skill development</strong>. Students gain real world exposure to engineering design, manufacturing processes, project execution, and soft skills that strongly aid technical education, youth development, and employability. All technical learnings are documented and passed on to future student batches to ensure continuity and long term impact.</p>
 
-    <p>As we undertake this technically intensive project, we are seeking support from organisations like {company} whose initiatives focus on education, skill development, and sustainability. Support from your side would directly contribute to strengthening hands on engineering education while supporting the broader objective of promoting sustainable technologies.</p>
+    <p>As we undertake this technically intensive project, we are seeking support from organisations like <strong>{company}</strong> whose initiatives focus on education, skill development, and sustainability. Support from your side would directly contribute to strengthening hands on engineering education while supporting the broader objective of promoting sustainable technologies.</p>
 
     <p>We would be grateful for the opportunity to share additional details about our project and explore the potential scope of a collaboration at your convenience.</p>
 
