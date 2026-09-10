@@ -79,9 +79,7 @@ HTML_BODY = """
     <p> I hope this mail finds you well.</p>
     <p>I would like to follow up on my previous note regarding a potential partnership between <span class="highlight">TeamKART</span>, IIT Kharagpur and <strong>{company}</strong>.</p>
 
-    <p>I wanted to check if you’ve had a moment to review our sponsorship brochure or if there are any specific technical details regarding our KEX1 Electric Vehicle project I can provide to help your team evaluate this.</p>
-
-    <p>We would be delighted to explore how <strong>{company}</strong> could be associated with our team and find an oppurtunity aligning with your objectives. I would be readily available to answer any doubts.</p>
+    <p>I wanted to check if you’ve had a moment to review our sponsorship brochure or if there are any specific technical details regarding our KEX1 Electric Vehicle project I can provide to help your team evaluate this. We would be delighted to explore how <strong>{company}</strong> could be associated with our team and find an oppurtunity aligning with your objectives. I would be readily available to answer any doubts.</p>
 
     <p>Looking forward to a positive response!</p>
 
