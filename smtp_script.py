@@ -76,20 +76,10 @@ HTML_BODY = """
 <div class="content">
 <p>Dear <strong>{recipient_name}</strong>,</p>
 
-    <p>Greetings from <strong>Indian Institute of Technology Kharagpur</strong>.</p>
-
-    <p>My name is <strong>Swastik Yatnale</strong>, and I am a student at IIT Kharagpur and a member of our institute’s Formula Student team, <span class="highlight">TeamKART</span>, a long standing student engineering initiative under the Department of Mechanical Engineering. Since 2008, the team has focused on providing hands-on technical education through the complete design and manufacture of Formula style race cars.</p>
-
-    <p>Over the years, the team has manufactured <strong>eight combustion vehicles</strong> and participated in <strong>three international and five national competitions</strong>, earning recognition for engineering and manufacturing excellence, including a <strong>Top 10 finish at Formula Bharat 2023</strong> and <strong>3rd place in the Cost & Manufacturing Event</strong>. We have also received multiple awards in Formula Bharat Virtuals.</p>
-
-    <p>Building on this foundation, TeamKART has recently <strong>manufactured its first electric vehicle project series</strong> (KE-1 and subsequent models) and is currently working on improving certain parts of our car.</p>
-
-    <p>The primary objective of this initiative is <strong>practical skill development</strong>. Students gain real world exposure to engineering design, manufacturing processes, project execution, and soft skills that strongly aid technical education, youth development, and employability. All technical learnings are documented and passed on to future student batches to ensure continuity and long term impact.</p>
-
-    <p>As we undertake this technically intensive project, we are seeking support from organisations like <strong>{company}</strong> whose initiatives focus on education, skill development, and sustainability. Support from your side would directly contribute to strengthening hands on engineering education while supporting the broader objective of promoting sustainable technologies.</p>
-
-    <p>We would be grateful for the opportunity to share additional details about our project and explore the potential scope of a collaboration at your convenience.</p>
-
+    <p>I would like to follow up on my previous note regarding a potential partnership between <strong>TeamKART, IIT Kharagpur</strong> and <strong>{company}</strong>.</p>
+    <p>I wanted to check if you've had a moment to review our Sponsorship Brochure or if you'd like to enquire any details regarding our project, which will be participating in <strong>Formula Bharat 2027</strong>. </p>
+    <p>Being a Student-Run Programme and the Official Formula Student Team of IIT Kharagpur, our work involves designing, manufacturing and testing of a race car. Support from establishments like yours would help us in procurement of goods and services required for our project, and would help in skill development and hands-on engineering.</p>
+    <p>I would be glad to discuss about the project and how {company} could collaborate with us. Please feel free to reach out for any questions or if any further details required.</p>
     <p>Best regards,</p>
 </div>
 </body>
@@ -118,9 +108,9 @@ HTML_TAIL="""
                     <td style="border-left: 2px solid #E31E24; padding: 0;"></td>
                     <td style="padding-left: 15px; line-height: 1.4; font-size: 10pt;">
                         <span style="font-weight: bold; font-size: 11pt;">Swastik Yatnale</span><br>
-                        First-Year Undergraduate Student<br>
+                        Second-Year Undergraduate Student<br>
                         Department of Mechanical Engineering<br>
-                        Mechanical Subsystem Trainee, TeamKART<br>
+                        Suspension Steering & Brakes Member, TeamKART<br>
                         IIT Kharagpur<br>
                         Contact: +91 9890699650<br>
                         <a href="https://www.linkedin.com/in/swastikyatnale/" style="color: #0044cc;">LinkedIn</a> | 
