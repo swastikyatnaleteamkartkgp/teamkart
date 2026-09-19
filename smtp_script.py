@@ -27,7 +27,7 @@ YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
 CC_EMAILS = []
-SUBJECT = f"Follow Up: Potential partnership of TeamKART, IIT Kharagpur with {company}"
+SUBJECT = f"Follow Up: Potential partnership of TeamKART, IIT Kharagpur with {row["Company"]}"
 HTML_HEAD = """
 <!DOCTYPE html>
 <html>
