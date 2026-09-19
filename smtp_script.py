@@ -72,8 +72,6 @@ HTML_HEAD = """
 
 # Template for the body
 HTML_BODY = """
-<body>
-<div class="content">
 <p>Dear <strong>{recipient_name}</strong>,</p>
 
     <p>I would like to follow up on my previous note regarding a potential partnership between <strong>TeamKART, IIT Kharagpur</strong> and <strong>{company}</strong>.</p>
@@ -81,8 +79,6 @@ HTML_BODY = """
     <p>Being a Student-Run Programme and the Official Formula Student Team of IIT Kharagpur, our work involves designing, manufacturing and testing of a race car. Support from establishments like yours would help us in procurement of goods and services required for our project, and would help in skill development and hands-on engineering.</p>
     <p>I would be glad to discuss about the project and how {company} could collaborate with us. Please feel free to reach out if you have questions or require further details about the project.</p>
     <p>Best regards,</p>
-</div>
-</body>
 
 
 """
