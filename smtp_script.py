@@ -72,6 +72,7 @@ HTML_HEAD = """
 
 # Template for the body
 HTML_BODY = """
+<body>
 <p>Dear <strong>{recipient_name}</strong>,</p>
 
     <p>I would like to follow up on my previous note regarding a potential partnership between <strong>TeamKART, IIT Kharagpur</strong> and <strong>{company}</strong>.</p>
