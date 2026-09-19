@@ -156,7 +156,7 @@ def send_emails():
             msg["From"] = formataddr((YOUR_NAME, EMAIL))
             msg["To"] = row["Email"]
             msg["Cc"] = ", ".join(CC_EMAILS)
-            msg["Subject"] = SUBJECT
+            msg["Subject"] = f"Follow Up: Potential partnership of TeamKART, IIT Kharagpur with {row['Company']}"
             msg["Message-ID"] = make_msgid(domain="gmail.com")
 
             html_template = HTML_HEAD+HTML_BODY+HTML_TAIL
