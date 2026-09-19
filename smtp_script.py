@@ -41,9 +41,9 @@ HTML_HEAD = """
             margin: 0 auto;
         }}
         .content {{
-            padding: 20px;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
+            padding: 0px;
+            border: 0px solid #e0e0e0;
+            border-radius: 0px;
         }}
         .highlight {{
             color: #E31E24;
@@ -79,7 +79,7 @@ HTML_BODY = """
     <p>I would like to follow up on my previous note regarding a potential partnership between <strong>TeamKART, IIT Kharagpur</strong> and <strong>{company}</strong>.</p>
     <p>I wanted to check if you've had a moment to review our Sponsorship Brochure or if you'd like to enquire any details regarding our project, which will be participating in <strong>Formula Bharat 2027</strong>. </p>
     <p>Being a Student-Run Programme and the Official Formula Student Team of IIT Kharagpur, our work involves designing, manufacturing and testing of a race car. Support from establishments like yours would help us in procurement of goods and services required for our project, and would help in skill development and hands-on engineering.</p>
-    <p>I would be glad to discuss about the project and how {company} could collaborate with us. Please feel free to reach out for any questions or if any further details required.</p>
+    <p>I would be glad to discuss about the project and how {company} could collaborate with us. Please feel free to reach out if you have questions or require further details about the project.</p>
     <p>Best regards,</p>
 </div>
 </body>
