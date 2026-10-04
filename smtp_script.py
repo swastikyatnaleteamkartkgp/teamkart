@@ -13,7 +13,7 @@ EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
 PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
-data = pd.read_csv('Merged.csv', encoding = 'utf-8')
+data = pd.read_csv('test.csv', encoding = 'utf-8')
 data.columns = data.columns.str.strip()
 
 # Definitions
@@ -75,11 +75,11 @@ HTML_BODY = """
 <body>
 <p>Dear <strong>{recipient_name}</strong>,</p>
 
-    <p>I would like to follow up on my previous note regarding a potential partnership between <strong>TeamKART, IIT Kharagpur</strong> and <strong>{company}</strong>.</p>
-    <p>I wanted to check if you've had a moment to review our Sponsorship Brochure or if you'd like to enquire any details regarding our project, which will be participating in <strong>Formula Bharat 2027</strong>. </p>
-    <p>Being a Student-Run Programme and the Official Formula Student Team of IIT Kharagpur, our work involves designing, manufacturing and testing of a race car. Support from establishments like yours would help us in procurement of goods and services required for our project, and would help in skill development and hands-on engineering.</p>
-    <p>I would be glad to discuss about the project and how {company} could collaborate with us. Please feel free to reach out if you have questions or require further details about the project.</p>
-    <p>Best regards,</p>
+    <p>I write this mail in order to follow up on my previous mail regarding a potential partnership between <strong>TeamKART, IIT Kharagpur</strong> and <strong>{company}</strong>.</p>
+    <p>I wanted to check if you've had a moment to review our Sponsorship Brochure or if you'd like to enquire about our first Electric Vehicle Project, which will be participating in <strong>Formula Bharat 2027</strong> EV Category. </p>
+    <p>As a student-run programme and the Official Formula SAE Team of IIT Kharagpur, we would be highly grateful if {company} could support us in our journey of hands-on learning. </p>
+    <p>I would be glad to discuss about the team and the collaboration. Please feel free to reach out if you have questions or require further details about the project.</p>
+    
 
 
 """
@@ -149,7 +149,7 @@ def send_emails():
             html_template = HTML_HEAD+HTML_BODY+HTML_TAIL
             
             html_content = html_template.format(
-                recipient_name=row['Name'],
+                recipient_name=row['Sal'],
                 brochure_link = BROCHURE_URL,
                 tk_logo_url = TK_LOGO_URL,
                 your_name = YOUR_NAME,
