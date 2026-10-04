@@ -77,7 +77,7 @@ HTML_BODY = """
 
     <p>I write this mail in order to follow up on my previous mail regarding a potential partnership between <strong>TeamKART, IIT Kharagpur</strong> and <strong>{company}</strong>.</p>
     <p>I wanted to check if you've had a moment to review our Sponsorship Brochure or if you'd like to enquire about our first Electric Vehicle Project, which will be participating in <strong>Formula Bharat 2027</strong> EV Category. </p>
-    <p>As a student-run programme and the Official Formula SAE Team of IIT Kharagpur, we would be highly grateful if {company} could support us in our journey of hands-on learning. </p>
+    <p>As a student-run programme and the Official Formula SAE Team of IIT Kharagpur, we would be highly grateful if {company} could support us in our journey of automotive research and hands-on learning. </p>
     <p>I would be glad to discuss about the team and the collaboration. Please feel free to reach out if you have questions or require further details about the project.</p>
     
 
