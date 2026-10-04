@@ -13,7 +13,7 @@ EMAIL = "swastikyatnale.teamkartkgp@gmail.com"
 PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 # Put in the correct csv file name 
-data = pd.read_csv('test.csv', encoding = 'utf-8')
+data = pd.read_csv('Merged.csv', encoding = 'utf-8')
 data.columns = data.columns.str.strip()
 
 # Definitions
@@ -26,7 +26,7 @@ YOUR_ROLE_TK = "Suspension Steering & Brakes Member"
 YOUR_CONTACT = "+91 9890699650"
 YOUR_LINKED_IN = "https://www.linkedin.com/in/swastikyatnale/"
 YOUR_FACEBOOK = "https://www.facebook.com/TeamKART/"
-CC_EMAILS = []
+CC_EMAILS = ["prajitpradeep.teamkartkgp@gmail.com","nihalsingh.teamkartkgp@gmail.com","shubhayubasak.teamkartkgp@gmail.com","mohamed.teamkartkgp@gmail.com"]
 #SUBJECT = f"Follow Up: Potential partnership of TeamKART, IIT Kharagpur with {row["Company"]}"
 HTML_HEAD = """
 <!DOCTYPE html>
