@@ -1,90 +1,89 @@
-Company,Name,Email
-Deustche Bank,Vishal Joshi,vishal.joshi@db.com
-Deustche Bank,Nikita Gupta,guptanikita6@gmail.com
-Deustche Bank,Imran Kazi,imran.kazi@db.com
-Standard Chartered Bank,Satish Kumar Poluparti,satish.kumar@sc.com
-Standard Chartered Bank,Hara Prasad Sarangi,prasad.s@sc.com
-Standard Chartered Bank,Aditi Gupta,aditi.gupta@sc.com
-HSBC India,Nonika Raj Kumar,nonika_r@hotmail.com
-HSBC India,Romit Mufti,romitmufti@gmail.com
-HSBC India,Pracheta Vats,vatspracheta@gmail.com
-RBL Bank,Kumar Abhishek,kumar.abhishek@rblbank.com
-RBL Bank,Vikram S,vikram.siitkgp@outlook.com
-RBL Bank,Nataranjan Balakrishnan,balakrishnan@rblbank.com
-DBS Bank,Satish Shukla,satishshukla@dbs.com
-DBS Bank,Srikrishnan Subramanian,srikrishnansubramanian@dbs.com
-DBS Bank,Rajeev Chandra Vadde,rajeevvadde@dbs.com
-EXIM Bank,Mukul Sarkar,mukul@eximbankindia.in
-EXIM Bank,Sumana Sarkar,sumana@eximbankindia.in
-EXIM Bank,Niharika,niharika@eximbankindia.in
-SIDBI,Rajesh K Agrawal,ragrawal@sidbi.in
-SIDBI,Santhosh K R,santhoshkr@sidbi.in
-Morgan Stanley,Kalpaj Banik,kalpaj.banik@morganstanley.com
-Morgan Stanley,Sumit Sinha,sumit@morganstanley.com
-Morgan Stanley,Deepak Ram Nanguluri,ramn@morganstanley.com
-UBS,Sonu Kumar Sharma,s.sharma@ubs.com
-UBS,Arif Shora,arif.shora@ubs.com
-UBS,Dharamvveer Arora,dharamveer.arora@credit-suisse.com
-BrahMos Aerospace,Raman Prabhat,murekarta@hotmail.com
-BrahMos Aerospace,Vishnu Kartha NR,karthavishnu@yahoo.com
-RITES Limited,Monideepa Sardar,monideepamba@gmail.com
-RITES Limited,Swapnil Tahmankar,swapnil.tahmankar@rites.com
-Solar Energy Corportation,Megha Ghai,megha.ghai@seci.co.in
-Solar Energy Corportation,Piyush Verma,piyush.v@seci.co.in
-Rail Vikas Nigam Limited,Utkarsh Tripathi,utkarsh.tripathi@rvnl.org
-Rail Vikas Nigam Limited,Satish Sharma,satish.sharma@rvnl.org
-Rail Vikas Nigam Limited,Mritunjay Pratap Singh,m.singh@rvnl.org
-Indian Renewable Energy Development Agency,Madhu Chandra Das,madhuchanda@ireda.in
-Indian Renewable Energy Development Agency,Ashish Aggarwal,ashishaggarwal@ireda.in
-Mishra Dhatu Nigam,Vasu Nadupuri,vasunadupuri@gmail.com
-Mishra Dhatu Nigam,Anvesh Kotha,anvesh.kotha@midhani-india.in
-Mishra Dhatu Nigam,Santanu Saha,ssaha@midhani-india.in
-Container Corportation of India,Yogeeta Deshpande,yogeeta@concorindia.com
-Container Corportation of India,Dr Alok Badul,alok.badkul@gmail.com
-Container Corportation of India,Kavita Srivastava,kavitasrivastava@concorindia.com
-Antrix Corporation,Prince Agarwal,prince@antrix.co.in
-Antrix Corporation,Chittra Vittal,chitra@antrix.co.in
-Bridge and Roof Company,Shri U Venugopal,u.venugopal@bridgeroof.co.in
-Andrew Yule and Company,Rahul Lohar,loharrahul592@gmail.com
-Andrew Yule and Company,Devajit Das,devajeetdas@gmail.com
-Andrew Yule and Company,Niladri Banerjee,nbanerjee673@gmail.com
-West Bengal State Electricity Distribution,Sabyasachi Hazra,sabyasachi.hazra@wbsedcl.in
-West Bengal State Electricity Distribution,Sutapa Bhattacharjee,sutapa.bhattacharjee@wbsetcl.in
-West Bengal State Electricity Distribution,Aritra Munshi,aritra.munshi@wbsetcl.in
-Energy Efficiency Services Limited,Sanjeev Ranjan,sranjan@eesl.co.in
-Energy Efficiency Services Limited,Nikhilesh Katariya,nkatariya@eesl.co.in
-Energy Efficiency Services Limited,Rakesh Kumar,rkumar1@eesl.co.in
-Engineering Projects (India) Ltd,Shuchi Mishra,shuchi.mishra@engineeringprojects.com
-Engineering Projects (India) Ltd,Amit Goel,amit.goel@engineeringprojects.com
-Engineering Projects (India) Ltd,Shivam Mittal,shivam.mittal@epi.gov.in
-Central Electronics Limited,Ashutosh Gupta,ashutosh@celindia.co.in
-Central Electronics Limited,C Akshay Naik,akshay.naik@celindia.co.in
-Braithwaite and Co,Pradyumna Kishor Mishra,pkmishra001@rediffmail.com
-Braithwaite and Co,Hans Raj,hans.raj@braithwaiteindia.com
-MSTC Limited,Sanjib Poddar,spoddar@mstcindia.co.in
-MSTC Limited,Rahul Maji,rkmaji@mstcindia.co.in
-MSTC Limited,Biman Dua,bdua@mstcindia.co.in
-BrahMos Aerospace,CSR,hr@brahmos.com
-RITES Limited,Sanjay Mehta,csr.rites@rites.com
-Rail Vikas Nigam Limited,Anil Kumar,anil.kumar@rvnl.org
-MSTC Limited,Rabindra Singh,rksingh@mstcindia.co.in
-MSTC Limited,Surya Kant,hodcpmstc@mstcindia.in
-MSTC Limited,Satya Prakash Shaw,cofin1@mstcindia.in
-MSTC Limited,Praveen Kumar,cohodfna@mstcindia.in
-MSTC Limited,Dibyendu Paul,hocp02@mstcindia.in
-MSTC Limited,Arnab Mahalanabis,cmdsect1@mstcindia.in
-Engineering Projects (India) Ltd.,Dr. Kamal Singh,kamal.singh@epi.gov.in
-Engineering Projects (India) Ltd.,Anamika Kashyap,a.kashyap@epi.gov.in
-Engineering Projects (India) Ltd.,Bhawna Rawat,bhawna.rawat@epi.gov.in
-Engineering Projects (India) Ltd.,Asha,asha.solanki@epi.gov.in
-Engineering Projects (India) Ltd.,Vinita Sharma,vinita.sharma@epi.gov.in
-Engineering Projects (India) Ltd.,Rakesh Kumar,rakesh.kumar@epi.gov.in
-Andrew Yule Group,Swarup Lal Mitra,pna@andrewyule.com
-Hyundai,Shalini Puchalapalli,shalini.puchalapalli@hyundai.com
-Hyundai,John Martin,john.martin@hyundai.com
-Hyundai,Tarun Garg,tarungarg70@gmail.com
-Mahindra Group,Ankur Bansal,bansal.ankur@mahindra.com
-Mahindra Group,Pradeep Yadav,yadav.pradeep@mahindra.com
-Mahindra Group,Hemalatha Thiyagarajan,thiyagarajan.hemalatha@mahindra.com
-Mahindra Group,Amitabha Hazari,hazari.amitabha@mahindra.com
-
+Company,Name,Email,Sal
+Deustche Bank,Vishal Joshi,vishal.joshi@db.com,Mr. Joshi
+Deustche Bank,Nikita Gupta,guptanikita6@gmail.com,Mrs. Gupta
+Deustche Bank,Imran Kazi,imran.kazi@db.com,Mr. Kazi
+Standard Chartered Bank,Satish Kumar Poluparti,satish.kumar@sc.com,Mr. Poluparti
+Standard Chartered Bank,Hara Prasad Sarangi,prasad.s@sc.com,Mr. Sarangi
+Standard Chartered Bank,Aditi Gupta,aditi.gupta@sc.com,Mrs. Gupta
+HSBC India,Nonika Raj Kumar,nonika_r@hotmail.com,Mrs. Kumar
+HSBC India,Romit Mufti,romitmufti@gmail.com,Mr. Mufti
+HSBC India,Pracheta Vats,vatspracheta@gmail.com,Mrs. Vats
+RBL Bank,Kumar Abhishek,kumar.abhishek@rblbank.com,Mr. Kumar
+RBL Bank,Vikram S,vikram.siitkgp@outlook.com,Vikram
+RBL Bank,Nataranjan Balakrishnan,balakrishnan@rblbank.com,Mr. Balakrishnan
+DBS Bank,Satish Shukla,satishshukla@dbs.com,Mr. Shukla
+DBS Bank,Srikrishnan Subramanian,srikrishnansubramanian@dbs.com,Mr. Subramanian
+DBS Bank,Rajeev Chandra Vadde,rajeevvadde@dbs.com,Mr. Vadde
+EXIM Bank,Mukul Sarkar,mukul@eximbankindia.in,Mr. Sarkar
+EXIM Bank,Sumana Sarkar,sumana@eximbankindia.in,Mrs. Sarkar
+EXIM Bank,Niharika,niharika@eximbankindia.in,Mrs. Niharika
+SIDBI,Rajesh K Agrawal,ragrawal@sidbi.in,Mr. Agrawal
+SIDBI,Santhosh K R,santhoshkr@sidbi.in,Mr. Santhosh
+Morgan Stanley,Kalpaj Banik,kalpaj.banik@morganstanley.com,Mr. Banik
+Morgan Stanley,Sumit Sinha,sumit@morganstanley.com,Mr. Sinha
+Morgan Stanley,Deepak Ram Nanguluri,ramn@morganstanley.com,Mr. Nanguluri
+UBS,Sonu Kumar Sharma,s.sharma@ubs.com,Mr. Sharma
+UBS,Arif Shora,arif.shora@ubs.com,Mr. Shora
+UBS,Dharamvveer Arora,dharamveer.arora@credit-suisse.com,Mr. Arora
+BrahMos Aerospace,Raman Prabhat,murekarta@hotmail.com,Mr. Prabhat
+BrahMos Aerospace,Vishnu Kartha NR,karthavishnu@yahoo.com,Mr. Vishnu
+RITES Limited,Monideepa Sardar,monideepamba@gmail.com,Mrs. Sardar
+RITES Limited,Swapnil Tahmankar,swapnil.tahmankar@rites.com,Mr. Tahmankar
+Solar Energy Corportation,Megha Ghai,megha.ghai@seci.co.in,Mrs. Ghai
+Solar Energy Corportation,Piyush Verma,piyush.v@seci.co.in,Mr. Verma
+Rail Vikas Nigam Limited,Utkarsh Tripathi,utkarsh.tripathi@rvnl.org,Mr. Tripathi
+Rail Vikas Nigam Limited,Satish Sharma,satish.sharma@rvnl.org,Mr. Sharma
+Rail Vikas Nigam Limited,Mritunjay Pratap Singh,m.singh@rvnl.org,Mr. Singh
+Indian Renewable Energy Development Agency,Madhu Chandra Das,madhuchanda@ireda.in,Mr. Das
+Indian Renewable Energy Development Agency,Ashish Aggarwal,ashishaggarwal@ireda.in,Mr. Aggarwal
+Mishra Dhatu Nigam,Vasu Nadupuri,vasunadupuri@gmail.com,Mr. Nadupuri
+Mishra Dhatu Nigam,Anvesh Kotha,anvesh.kotha@midhani-india.in,Mr. Kotha
+Mishra Dhatu Nigam,Santanu Saha,ssaha@midhani-india.in,Mr. Saha
+Container Corportation of India,Yogeeta Deshpande,yogeeta@concorindia.com,Mrs. Deshpande
+Container Corportation of India,Dr Alok Badul,alok.badkul@gmail.com,Dr. Badul
+Container Corportation of India,Kavita Srivastava,kavitasrivastava@concorindia.com,Mrs. Srivastava
+Antrix Corporation,Prince Agarwal,prince@antrix.co.in,Mr. Agarwal
+Antrix Corporation,Chittra Vittal,chitra@antrix.co.in,Mrs. Vittal
+Bridge and Roof Company,Shri U Venugopal,u.venugopal@bridgeroof.co.in,Mr. Venugopal
+Andrew Yule and Company,Rahul Lohar,loharrahul592@gmail.com,Mr. Lohar
+Andrew Yule and Company,Devajit Das,devajeetdas@gmail.com,Mr. Das
+Andrew Yule and Company,Niladri Banerjee,nbanerjee673@gmail.com,Mrs. Banerjee
+West Bengal State Electricity Distribution,Sabyasachi Hazra,sabyasachi.hazra@wbsedcl.in,Mr. Hazra
+West Bengal State Electricity Distribution,Sutapa Bhattacharjee,sutapa.bhattacharjee@wbsetcl.in,Mrs. Bhattacharjee
+West Bengal State Electricity Distribution,Aritra Munshi,aritra.munshi@wbsetcl.in,Mr. Munshi
+Energy Efficiency Services Limited,Sanjeev Ranjan,sranjan@eesl.co.in,Mr. Ranjan
+Energy Efficiency Services Limited,Nikhilesh Katariya,nkatariya@eesl.co.in,Mr. Katariya
+Energy Efficiency Services Limited,Rakesh Kumar,rkumar1@eesl.co.in,Mr. Kumar
+Engineering Projects (India) Ltd,Shuchi Mishra,shuchi.mishra@engineeringprojects.com,Mrs. Mishra
+Engineering Projects (India) Ltd,Amit Goel,amit.goel@engineeringprojects.com,Mr. Goel
+Engineering Projects (India) Ltd,Shivam Mittal,shivam.mittal@epi.gov.in,Mr. Mittal
+Central Electronics Limited,Ashutosh Gupta,ashutosh@celindia.co.in,Mr. Gupta
+Central Electronics Limited,C Akshay Naik,akshay.naik@celindia.co.in,Mr. Naik
+Braithwaite and Co,Pradyumna Kishor Mishra,pkmishra001@rediffmail.com,Mr. Mishra
+Braithwaite and Co,Hans Raj,hans.raj@braithwaiteindia.com,Mr. Raj
+MSTC Limited,Sanjib Poddar,spoddar@mstcindia.co.in,Mr. Poddar
+MSTC Limited,Rahul Maji,rkmaji@mstcindia.co.in,Mr. Maji
+MSTC Limited,Biman Dua,bdua@mstcindia.co.in,Mr. Dua
+BrahMos Aerospace,CSR,hr@brahmos.com,Sir/Ma'am
+RITES Limited,Sanjay Mehta,csr.rites@rites.com,Mr. Mehta
+Rail Vikas Nigam Limited,Anil Kumar,anil.kumar@rvnl.org,Mr. Kumar
+MSTC Limited,Rabindra Singh,rksingh@mstcindia.co.in,Mr. Singh
+MSTC Limited,Surya Kant,hodcpmstc@mstcindia.in,Mr. Kant
+MSTC Limited,Satya Prakash Shaw,cofin1@mstcindia.in,Mr. Shaw
+MSTC Limited,Praveen Kumar,cohodfna@mstcindia.in,Mr. Kumar
+MSTC Limited,Dibyendu Paul,hocp02@mstcindia.in,Mr. Paul
+MSTC Limited,Arnab Mahalanabis,cmdsect1@mstcindia.in,Mr. Mahalanabis
+Engineering Projects (India) Ltd.,Dr. Kamal Singh,kamal.singh@epi.gov.in,Mr. Singh
+Engineering Projects (India) Ltd.,Anamika Kashyap,a.kashyap@epi.gov.in,Mrs. Kashyap
+Engineering Projects (India) Ltd.,Bhawna Rawat,bhawna.rawat@epi.gov.in,Mrs. Rawat
+Engineering Projects (India) Ltd.,Asha,asha.solanki@epi.gov.in,Mrs. Asha
+Engineering Projects (India) Ltd.,Vinita Sharma,vinita.sharma@epi.gov.in,Mrs. Sharma
+Engineering Projects (India) Ltd.,Rakesh Kumar,rakesh.kumar@epi.gov.in,Mr. Kumar
+Andrew Yule Group,Swarup Lal Mitra,pna@andrewyule.com,Mr. Mitra
+Hyundai,Shalini Puchalapalli,shalini.puchalapalli@hyundai.com,Mrs. Puchalapalli
+Hyundai,John Martin,john.martin@hyundai.com,Mr. Martin
+Hyundai,Tarun Garg,tarungarg70@gmail.com,Mr. Garg
+Mahindra Group,Ankur Bansal,bansal.ankur@mahindra.com,Mr. Bansal
+Mahindra Group,Pradeep Yadav,yadav.pradeep@mahindra.com,Mr. Yadav
+Mahindra Group,Hemalatha Thiyagarajan,thiyagarajan.hemalatha@mahindra.com,Mrs. Thiyagarajan
+Mahindra Group,Amitabha Hazari,hazari.amitabha@mahindra.com,Mr. Hazari
