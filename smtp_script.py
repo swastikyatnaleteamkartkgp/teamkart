@@ -81,7 +81,8 @@ HTML_BODY = """
     <p>I hope you are doing well. I wanted to follow up on my previous email on a potential collaboration between <strong>TeamKART, IIT Kharagpur</strong> and <strong>{company}</strong>.</p>
     <p>We are currently preparing our first Electric Vehicle for <strong>Formula Bharat 2027</strong>, with which we wish to begin a new chapter for our team. Partnership and support from a great organisation like {company} could aid us in our research and development of the project. </p>
     <p>I have attached our sponsorship brochure to this mail. I will be readily available to answer any queries regarding the team or the project.</p>
-    
+    <p>Thank you for your time. Looking forward to a positive response from your side.</p>
+    <p>Regards,</p>
 
 
 """
@@ -101,8 +102,6 @@ HTML_BODY = """
 HTML_TAIL="""
         
         <div class="footer">
-            <p>Thank you for your time. Looking forward to hearing from you</p>
-            <p>Warm regards,</p>
             <table style="border-collapse: collapse; font-family: Arial, sans-serif;">
                 <tr>
                     <td style="padding-right: 15px;">
